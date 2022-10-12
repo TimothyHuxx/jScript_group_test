@@ -1,0 +1,24 @@
+{
+  "name": "test_dir_foreveryone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testFunc.js",
+  "scripts": {
+    "test": "Mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimothyHuxx/jScript_group.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimothyHuxx/jScript_group/issues"
+  },
+  "homepage": "https://github.com/TimothyHuxx/jScript_group#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
