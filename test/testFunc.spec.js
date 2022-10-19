@@ -16,7 +16,6 @@ describe("Test suit for convert function", () => {
 
     it("convert(1) should return 1", () => {
         expect(convert(1)).to.be.equal(1);
-
     })
     
     it("convert(-0) should return -0", () => {
@@ -29,7 +28,6 @@ describe("Test suit for convert function", () => {
 
     it("convert(-10001) should return (-10001)", () => {
         expect(convert(-10001)).to.be.equal(-10001);
-
     })
   
     it("convert(-29374) should return -47392", () => {
@@ -42,5 +40,9 @@ describe("Test suit for convert function", () => {
     
     it("convert(-1357) should return (-7531)", () => {
         expect(convert(-1357)).to.be.equal(-7531);
+    })
+
+    it("convert(-3) should return -3", () => {
+        expect(convert(-3)).to.be.equal(-3);
     })
 })
