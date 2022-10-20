@@ -6,12 +6,16 @@ describe("Test suit for convert function", () => {
         expect(convert(111)).to.be.equal(111);
     })
 
-    it("convert(-2022) should return (-2022)", () => {
-        expect(convert(-2022)).to.be.equal(-2022);
+    it("convert(-2) should return (-2)", () => {
+        expect(convert(-2)).to.be.equal(-2);
     })
    
-    it("convert(-2000) should return (-2000)", () => {
-        expect(convert(-2000)).to.be.equal(-2000);
+    it("convert(-1) should return (-1)", () => {
+        expect(convert(-1)).to.be.equal(-1);
+    })
+
+    it("convert(-2000) should return (-0002)", () => {
+    expect(convert(-2000)).to.be.equal(-0002);
     })
 })
 
