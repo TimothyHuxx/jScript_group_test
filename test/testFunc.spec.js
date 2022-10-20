@@ -30,4 +30,8 @@ describe("Test suit for convert function", () => {
     it("convert(-10001) should return (-10001)", () => {
         expect(convert(-10001)).to.be.equal(-10001);
     })
+    it("convert(-2022) should return (-2022)", () => {
+        expect(convert(-2022)).to.be.equal(-2022);
+    })
 })
+
