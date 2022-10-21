@@ -22,11 +22,11 @@ describe("Test suit for convert function", () => {
         expect(convert(-0)).to.be.equal(-0);
     })
 
-    it("convert(-5) should return -5", () => {
-        expect(convert(-5)).to.be.equal(-5);
-    })
-
     it("convert(-2 should return -2", () => {
         expect(convert(-2)).to.be.equal(-2);
+    })
+
+    it("convert(-5) should return -5", () => {
+        expect(convert(-5)).to.be.equal(-5);
     })
 })
