@@ -1,4 +1,4 @@
-const twoDecimalPlaces = require("../src/twoDecimalPlaces_Func_Artemka");
+const twoDecimalPlaces = require("../src/twoDecimalPlaces_Func_Art");
 const expect = require("chai").expect;
 
 describe("Test suit for twoDecimalPlaces function", () => {
