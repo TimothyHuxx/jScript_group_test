@@ -11,7 +11,5 @@ function calculateInstallments(orderAmount) {
   }
   return Array.from(Array(4).fill(num / 100 / 4))
 }
-console.log(calculateInstallments(100.08));
-console.log(calculateInstallments(50.02));
 
   module.exports = calculateInstallments;
