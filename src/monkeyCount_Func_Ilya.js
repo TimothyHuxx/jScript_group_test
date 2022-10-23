@@ -1,4 +1,4 @@
-// calculate the amount of numbers in array
+// Given the number (n), populate an array with all numbers up to and including that number, but excluding zero.
 
 function monkeyCount(n) {
     let arr = []
@@ -9,3 +9,4 @@ function monkeyCount(n) {
     }
 
     module.exports = monkeyCount;
+    
