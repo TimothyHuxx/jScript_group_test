@@ -1,7 +1,5 @@
-
 const polyndrom = require('../src/Polyndrom_Func_Vik.js')
 const expect = require ("chai").expect;
-
 describe('Test suit for checking polyndrom', ()=> {
 const test_data = ['abba','madam','kazak','1221','ehe']
    it('checking for polyndrom', ()=> {
