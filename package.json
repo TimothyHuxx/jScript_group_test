@@ -4,7 +4,7 @@
   "description": "",
   "main": "testFunc.js",
   "scripts": {
-    "test": "Mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
