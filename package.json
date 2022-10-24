@@ -19,6 +19,9 @@
   "homepage": "https://github.com/TimothyHuxx/jScript_group#readme",
   "dependencies": {
     "chai": "^4.3.6",
-    "mocha": "^10.0.0"
+    "mocha": "^10.1.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
