@@ -1,4 +1,4 @@
-const palyndrom = require('../src/isPalindrome_Func_Vik.js')
+const palindrome = require('../src/isPalindrome_Func_Vik.js')
 const expect = require ("chai").expect;
 describe('Test suit for checking palindrome', ()=> {
 const test_data = ['abba','madam','kazak','1221','ehe']
