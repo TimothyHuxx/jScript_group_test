@@ -1,5 +1,4 @@
 const removeFirstLastCharacter = require("../src/removeFirstLastElement_SvetaKanel");
-
 const expect = require("chai").expect;
 
 describe("Test suit for function that should remove the first and last character", () => {
