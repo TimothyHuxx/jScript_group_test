@@ -1,4 +1,4 @@
-const maxNumber = require("../src/findMaxNumber_OlgaA");
+const maxNumber = require("../src/findMaxNumber_func_OlgaA");
 const expect = require("chai").expect;
 
 describe("Test suit for maxNumber function", () => {
