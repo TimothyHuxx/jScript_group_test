@@ -6,7 +6,6 @@ describe("Test suit for positiveSum function", () => {
         expect(positiveSum([1,2,3,4,5])).to.be.equal(15);
     })
 
-    
      it("positiveSum([1,-2,3,4,5]) should return (13)", () => {
         expect(positiveSum([1,-2,3,4,5])).to.be.equal(13);
     })
