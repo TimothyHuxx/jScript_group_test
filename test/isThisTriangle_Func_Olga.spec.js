@@ -1,9 +1,9 @@
-const isDivideBy = require("../src/isThisTriangle_Func_Olga");
+const isTriangle = require("../src/isThisTriangle_Func_Olga");
 const expect = require("chai").expect;
 
 describe("Test suit for isTriangle function", () => {
     it("isTriangle(-12, 2, -6) should return (true)", () => {
-        expect(isDivideBy(-12, 2, -6)).to.be.equal(true);
+        expect(isTriangle(-12, 2, -6)).to.be.equal(true);
     })
 })
 
